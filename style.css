@@ -1,0 +1,241 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.top-bar {
+    
+    display: flex;
+    height: 15%;
+    background-color: rgb(241, 234, 241);
+
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.top-bar1 {
+    width: 20%;
+    border-right: 2px solid rgb(231, 229, 229);
+    display: flex;
+    align-items: center;
+    font-family: 'Akaya Kanadaka';
+    
+}
+
+.top-bar2 {
+    display: flex;
+    width: 60%;
+    border-right: 2px solid rgb(231, 229, 229);
+    padding: 3px;
+
+    
+
+}
+
+.top-bar3 {
+    width: 20%;
+    padding: 3px;
+    border-right: 1px;
+    display: flex;
+}
+
+.side-bar {
+   width: 20%;
+    border: 1px solid grey;
+    height: 85%;
+    border: 1px solid rgb(231, 229, 229);
+    background-color: rgb(241, 234, 241);
+
+
+    font-family: 'Archivo Narrow';
+    display: flex;
+    flex-direction: column;
+    margin: 0px 5px;
+    border-radius: 5px;
+
+
+
+}
+
+html,
+body {
+    height: 100%;
+    background-color:white
+}
+
+.side-menu {
+    margin: 2%;
+    padding: 5%;
+}
+
+.side-menu li {
+    width: 100%;
+    padding: 5%;
+    list-style-type: none;
+    color: purple;
+
+}
+
+.side-menu li:hover {
+    background-color: rgb(181, 139, 216);
+    border-radius: 10px;
+    color: white;
+}
+
+.icon {
+    padding-right: 10%;
+}
+
+.fa-cart-shopping {
+    padding: 0px 20px;
+
+}
+
+.logout {
+    margin: 2%;
+    padding: 5%;
+    margin-top: auto;
+
+
+}
+
+.logout li {
+    width: 100%;
+    padding: 5%;
+    list-style-type: none;
+    color: purple;
+}
+
+.logout li:hover {
+    background-color: rgb(181, 139, 216);
+    border-radius: 10px;
+    color: white;
+}
+
+.stats {
+    display: flex;
+    width: 100%;
+}
+
+.stat-box {
+    background-color: rgb(241, 234, 241);
+
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    width: inherit;
+
+}
+.button{
+    margin-left: auto;
+}
+
+.intro
+{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(241, 234, 241);
+
+
+    width: 100%;
+    border: 1px solid rgb(231, 229, 229);
+    height: 10%;
+    padding: 10px;
+    border-radius: 5px;
+    color: purple;
+    font-family: 'Akaya Kanadaka';
+
+
+}
+.main
+{
+    display: flex;
+    width: 100%;
+    height: -webkit-fill-available;
+}
+.home{
+    width: 80%;
+}
+.inside-box{
+    display:flex;
+}
+.numbers-g{
+    color: green;
+}
+.numbers-r{
+    color: red;
+}
+.fa-bell{
+    height: fit-content;
+    margin: auto;
+
+
+}
+.top-bar2 input[type="text"]{
+    height: 25px;
+
+}
+
+.searchbox{
+   height: fit-content;
+    margin: auto;
+    width: 70%;
+
+}
+#profimg{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin:auto;
+
+}
+#profdetails{
+    margin: auto;
+    width: 60%;
+}
+
+#charts{
+    display: flex;
+    background-color: rgb(241, 234, 241);
+    padding: 10px;
+    border-radius:10px;
+}
+#myChart{
+    width: 70%;
+    
+    
+}
+#pie-chart{
+    
+    width: auto;
+}
+.orders-sales{
+    display: flex;
+    width: 100%;
+   
+}
+
+.orders{
+    background-color: rgb(241, 234, 241);
+    padding: 10px;
+    border-radius:10px;
+    margin: 10px;
+    width: 70%;
+}
+
+.sales{
+    background-color: rgb(241, 234, 241);
+    padding: 10px;
+    border-radius:10px;
+    margin:10px;
+    width: 30%;
+}
+.orders th{
+    width: 25%;
+}
+.orders td{
+width: 25%;
+}
+
+

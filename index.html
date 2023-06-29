@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easy shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Akaya Kanadaka' rel='stylesheet'>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="https://kit.fontawesome.com/888b219650.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="top-bar">
+        <div class="top-bar1">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <div>
+                <h3> EasyShop </h3>
+                <small> Marketplace storefront</small>
+            </div>
+        </div>
+        <div class="top-bar2">
+            <div class="searchbox">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search..">
+            </div>
+            <i class="fa-solid fa-bell"></i>
+        </div>
+        <div class="top-bar3">
+            <img src="IMG_7266.jpg" alt="self" id="profimg">
+            <div id="profdetails">
+                <p><b> Suraj Bhat </b></p>
+                <p> store owner </p>
+            </div>
+
+        </div>
+    </div>
+    <div class="main">
+        <div class="side-bar">
+            <ul class="side-menu">
+                <li><i class="fa-duotone fa-grip icon"></i>Dashboard</li>
+                <li><i class="fa-solid fa-bag-shopping icon"></i>Orders</li>
+                <li><i class="fa-solid fa-person icon"></i>Customers</li>
+                <li><i class="fa-solid fa-gift icon"></i>Products</li>
+                <li><i class="fa-solid fa-flag icon"></i>Report</li>
+                <li><i class="fa-solid fa-message icon"></i>Messages</li>
+                <li><i class="fa-solid fa-circle-info icon"></i>Help Center</li>
+            </ul>
+            <ul class="logout">
+                <li><i class="fa-solid fa-gears icon"></i>Settings</li>
+                <li><i class="fa-solid fa-door-open icon"></i>Logout</li>
+            </ul>
+        </div>
+
+        <div class="home">
+
+            <div class="intro">
+                <div>
+
+                    <h3>Welcome Suraj Bhat,</h3>
+                    <p>Stay up to date with your stores's current status. </p>
+                </div>
+                <div class="button">
+
+                    <input type="date">
+                    <button>Download PDF</button>
+                </div>
+            </div>
+
+            <div class="stats">
+                <div class="stat-box">
+                    <div class="inside-box">
+                        <i class="fa-solid fa-dollar-sign icon"></i>
+                        <div>
+                            <b>Total revenue </b>
+                            <br>
+                            <small>NGN 600,500 </small>
+                        </div>
+                    </div>
+                    <p>
+                        <small> <span class="numbers-g">+37% </span>from last month </small>
+                    </p>
+                </div>
+                <div class="stat-box">
+                    <div class="inside-box">
+                        <i class="fa-solid fa-bag-shopping icon"></i>
+                        <div>
+                            <b>Total Orders</b>
+                            <br>
+                            <small> 2567</small>
+                        </div>
+                    </div>
+                    <p>
+                        <small>
+                            <span class="numbers-r">-10% </span> from last month (305 orders)
+                        </small>
+                    </p>
+                </div>
+                <div class="stat-box">
+                    <div class="inside-box">
+                        <i class="fa-regular fa-user icon"></i>
+                        <div>
+
+                            <b> Today's visitors</b>
+                            <br>
+                            <small> 1459</small>
+                        </div>
+                    </div>
+                    <p>
+                        <small>
+                            <span class="numbers-g"> +22% </span> from yesterday (123 visitors)
+                        </small>
+                    </p>
+                </div>
+                <div class="stat-box">
+                    <div class="inside-box">
+                        <i class="fa-solid fa-users icon"></i>
+                        <div>
+
+                            <b> Conversion Rate</b>
+                            <br>
+                            <small> 15%</small>
+                        </div>
+                    </div>
+                    <p>
+                        <small> <span class="numbers-r">-1.5% </span> from yesterday (6.5% rate)</small>
+                    </p>
+                </div>
+            </div>
+
+            <div id="charts">
+                <div id="myChart"></div>
+
+                <div id="pie-chart"></div>
+
+            </div>
+            <div class="orders-sales">
+                <div class="orders">
+                    <table >
+                        <tr>
+                            <th >Product </th>
+                            <th  >Order Id</th>
+                            <th  >Price</th>
+                            <th  >Status</th>
+                        </tr>
+                        <tr>
+                            <td>Nike sneakers</td>
+                            <td>#34543</td>
+                            <td>NGN 23223</td>
+                            <td>Delivered</td>
+                        </tr>
+                        <tr>
+                            <td>iphone11</td>
+                            <td>#223232</td>
+                            <td>NGN 23123</td>
+                            <td>Pending</td>
+                        </tr>
+                        <tr>
+                            <td>Adidas sneakers</td>
+                            <td>#34242</td>
+                            <td>NGN 1212</td>
+                            <td>Delivered</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="sales">
+                    <table >
+                        <tr>
+                            <td>Mark Orji</td>
+                            <td>NGN 25,000</td>
+                        </tr>
+                        <tr>
+                            <td>Kate Smith</td>
+                            <td>NGN 1,250</td>
+                        </tr>
+                        <tr>
+                            <td>Alba Kane</td>
+                            <td>NGN 7,630</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
